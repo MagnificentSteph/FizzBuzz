@@ -12,7 +12,6 @@ import {
 } from '../constants'
 import { runTimer } from './'
 
-
 const checkBuzz = () => {
   return dispatch => {
     dispatch({

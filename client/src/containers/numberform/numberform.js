@@ -13,7 +13,6 @@ class NumberFormContainer extends Component {
   }
 }
 
-
 const mapStateToProps = ({ fizzBuzz }) => ({})
 
 const mapDispatchToProps = dispatch => bindActionCreators({

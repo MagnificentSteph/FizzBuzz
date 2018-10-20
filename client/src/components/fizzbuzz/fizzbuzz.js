@@ -9,5 +9,4 @@ const FizzBuzzGame = (props) =>
       <GamePanel />
     </div>
 
-
 export default FizzBuzzGame

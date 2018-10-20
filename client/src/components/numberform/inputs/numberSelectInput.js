@@ -16,7 +16,7 @@ const NumberSelectInput = (props) => {
   return (
     <div style={numberSelectorContainerStyle}>
       <FormControl className={classes.margin}>
-        <InputLabel size="2em" htmlFor="input-with-icon-adornment">Select number range:</InputLabel>
+        <InputLabel htmlFor="input-with-icon-adornment">Select number range:</InputLabel>
         <Input
           focused="true"
           id="input-with-icon-adornment"

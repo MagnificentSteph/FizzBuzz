@@ -1,0 +1,17 @@
+server:
+  build: ./server
+  ports:
+    - 8000:8000
+  volumes:
+    - ./api:/go/src/github.com/slfitzge/FizzBuzz/server
+  environment:
+    - FUNCTION_URL=https://us-central1-intrepid-vista-219719.cloudfunctions.net/fizz_buzz
+    - MAX_RANGE=100
+client:
+  build: ./client
+  ports:
+    - 5000:5000
+  volumes:
+    - ./client:/go/src/github.com/slfitzge/FizzBuzz/client
+  environment:
+    - HTTP_PROXY=http://localhost:8000

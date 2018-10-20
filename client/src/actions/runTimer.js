@@ -10,7 +10,6 @@ import {
 } from '../constants'
 import { START_TIMER } from 'redux-timer-middleware'
 
-
 const runTimer = () => {
   const maxPercentage = 99
   const timerInterval = TIMER_INTERVAL

@@ -8,5 +8,4 @@ const NumberForm = () =>
     <LoadingPanel />
   </div>
 
-
 export default NumberForm
