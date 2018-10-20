@@ -8,7 +8,7 @@ const scoreDisplayStyle = {
   },
   score: {
     margin: '1em',
-    fontSize: '3em',
+    fontSize: '1em',
     width: '50%',
     borderTop: "none",
     borderLeft: "none",

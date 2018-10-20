@@ -11,4 +11,5 @@ const updateMaxRange = (newMaxRange) => {
   }
 }
 
+
 export default updateMaxRange

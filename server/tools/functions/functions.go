@@ -9,6 +9,7 @@ import (
   "fmt"
 )
 
+
 func SendFizzBuzzRequest(googleUrl string, maxRange int, w http.ResponseWriter) (*http.Response, error){
 
   maxRangeData := models.MaxRange{Max_Range: maxRange}

@@ -12,6 +12,7 @@ import {
 } from '../constants'
 import { runTimer } from './'
 
+
 const checkFizzBuzz = () => {
   return dispatch => {
     dispatch({

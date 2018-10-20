@@ -21,6 +21,7 @@ const GamePanel = (props) => (props.gameReady && !props.isEnd) ?
   </div>
   :
   null
+  
 
 const mapStateToProps = ({ fizzBuzz }) => ({
   gameReady: fizzBuzz.gameReady,

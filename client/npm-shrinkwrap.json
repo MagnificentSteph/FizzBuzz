@@ -759,6 +759,7 @@
         "babel-types": "^6.26.0",
         "lodash": "^4.17.4"
       }
+      
     },
     "babel-helper-remap-async-to-generator": {
       "version": "6.24.1",

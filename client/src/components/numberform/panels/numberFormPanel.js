@@ -14,6 +14,7 @@ const NumberFormPanel = (props) => props.numberSet ?
   const mapStateToProps = ({ fizzBuzz }) => ({
     numberSet: fizzBuzz.numberSet
   })
+  
 
   export default connect(
     mapStateToProps

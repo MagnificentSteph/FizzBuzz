@@ -32,5 +32,5 @@ export {
   CLEAR_TIMER,
   CHANGE_ACTIVE_DISPLAY,
   SUBMIT_MAX_RANGE
-} from './ActionTypes'
+} from './ActionTypes' 
 export { API_URL, SEED_URL } from './UrlConstants'

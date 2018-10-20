@@ -11,6 +11,7 @@ import { runTimer } from './'
 
 const passNumber = () => {
 
+
   return dispatch => {
     dispatch({
       type: CLEAR_TIMER

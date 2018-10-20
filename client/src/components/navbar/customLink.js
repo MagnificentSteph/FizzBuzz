@@ -10,7 +10,7 @@ const CustomLink = (props) => {
     <div style={customLinkStyle}>
       <Icon
         name={linkData.icon}
-        style={customLinkStyle.iconStyle} 
+        style={customLinkStyle.iconStyle}
       />
       <Link
         to={linkData.routeLink}
@@ -21,6 +21,5 @@ const CustomLink = (props) => {
     </div>
   )
 }
-
 
   export { CustomLink }

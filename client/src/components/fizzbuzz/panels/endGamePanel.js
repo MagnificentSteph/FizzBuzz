@@ -14,6 +14,7 @@ const mapPropsToState = ({ fizzBuzz }) => ({
   isEnd: fizzBuzz.isEnd
 })
 
+
 export default connect(
   mapPropsToState
 )(EndGamePanel)

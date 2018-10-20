@@ -10,6 +10,7 @@ import {
   API_URL
 } from '../constants'
 
+
 const getData = () => {
 
   const HTTP_PROXY = process.env.HTTP_PROXY

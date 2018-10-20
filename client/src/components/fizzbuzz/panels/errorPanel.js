@@ -28,6 +28,7 @@ const ErrorPanel = (props) => {
   }
 }
 
+
 ErrorPanel.propTypes = {
   classes: PropTypes.object.isRequired,
 };

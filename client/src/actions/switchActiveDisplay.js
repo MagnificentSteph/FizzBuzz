@@ -9,4 +9,5 @@ const switchActiveDisplay = (newDisplayState) => {
   }
 }
 
+
 export default switchActiveDisplay

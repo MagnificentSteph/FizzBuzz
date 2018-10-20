@@ -6,6 +6,7 @@ import {
 } from '../constants'
 import { STOP_TIMER } from 'redux-timer-middleware'
 
+
 const stopTimers = () => {
   return dispatch => {
     dispatch({

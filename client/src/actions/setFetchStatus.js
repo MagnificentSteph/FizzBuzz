@@ -4,7 +4,6 @@ import {
   REQUEST_FETCH_DATA_SUCCESS
 } from '../constants'
 
-
 export const requestHasErrored = (bool) => {
     return {
           type: REQUEST_HAS_ERRORED,

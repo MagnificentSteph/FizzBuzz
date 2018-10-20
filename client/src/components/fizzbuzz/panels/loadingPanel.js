@@ -20,6 +20,7 @@ const LoadingPanel = (props) => {
   }
 }
 
+
 LoadingPanel.propTypes = {
   classes: PropTypes.object.isRequired,
 };
