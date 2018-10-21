@@ -8,7 +8,7 @@ const currentNumberDisplayStyle = {
   },
   number: {
     margin: '1em',
-    fontSize: '2em',
+    fontSize: '1.5em',
     width: '50%',
     borderTop: "none",
     borderLeft: "none",
@@ -17,7 +17,7 @@ const currentNumberDisplayStyle = {
   },
   title: {
     marginBottom: "0.2em",
-    fontSize: "2em"
+    fontSize: "1.5em"
   }
 }
 
