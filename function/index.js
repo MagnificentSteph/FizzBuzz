@@ -18,26 +18,26 @@ exports.fizzBuzz = (req, res) => {
   }
   else{
 
-    const numbersToCheck = createArray(1, max_range);
+    const numbersToEvl = createArray(1, max_range);
 
-   	const fizzBuzzResults = numbersToCheck.map((number, index) => {
+   	const evlResults = numbersToEvl.map((fizzNum, index) => {
 
-      if(number%5==0 && number%3==0){
-      	return `FizzBuzz ${number}`;
+      if(fizzNum%5==0 && fizzNum%3==0){
+      	return `FizzBuzz ${fizzNum}`;
       }
-      else if(number%5==0){
-      	return `Buzz ${number}`;
+      else if(fizzNum%5==0){
+      	return `Buzz ${fizzNum}`;
       }
-      else if(number%3==0){
-      	return `Fizz ${number}`;
+      else if(fizzNum%3==0){
+      	return `Fizz ${fizzNum}`;
       }
       else{
-      	return number.toString();
+      	return fizzNum.toString();
       }
     });
 
     const results = {
-    	'results_array': fizzBuzzResults
+    	'results_array': evlResults
     }
 
     res.status(200).send(results)
