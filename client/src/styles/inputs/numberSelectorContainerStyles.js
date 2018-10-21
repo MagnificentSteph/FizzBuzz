@@ -1,5 +1,5 @@
 const numberSelectorContainerStyle = {
-  margin: "3em",
+  margin: "5em",
   display: "flex",
   justifyContent: "center"
 }

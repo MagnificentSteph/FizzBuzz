@@ -20,7 +20,8 @@ const SubmitMaxRangeButton = (props) => {
           className={classes.button}
           onClick={() => props.submitMaxRange(props.maxRange)}
         >
-        Start Game
+        Set Number and Click
+        to Start Game
         </Button>
       </Link>
     </div>

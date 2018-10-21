@@ -11,7 +11,7 @@ const playerWinDisplayStyle = {
     letterSpacing: '0.2em'
   },
   header: {
-    fontSize: '1em',
+    fontSize: '3em',
     textAlign: 'center',
     margin: '1em',
     fontFamily: 'sans-serif',

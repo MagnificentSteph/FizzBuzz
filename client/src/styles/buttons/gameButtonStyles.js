@@ -5,8 +5,8 @@ const gameButtonStyle = theme => ({
     fontWeight: '700',
     fontSize: "1em",
     backgroundColor: '#b082b0',
-    height: '8em',
-    width: '8em',
+    height: '10em',
+    width: '10em',
     '&:hover': {
         backgroundColor: '#b082b0',
         borderColor: '#828db0',

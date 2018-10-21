@@ -8,7 +8,7 @@ const scoreDisplayStyle = {
   },
   score: {
     margin: '1em',
-    fontSize: '1.5em',
+    fontSize: '4em',
     width: '50%',
     borderTop: "none",
     borderLeft: "none",
@@ -19,7 +19,7 @@ const scoreDisplayStyle = {
   },
   title: {
     marginBottom: "0.2em",
-    fontSize: "1.5em"
+    fontSize: "0.65em"
   }
 }
 
