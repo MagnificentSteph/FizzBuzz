@@ -1,4 +1,4 @@
-###FizzBuzz challenge
+###FizzBuzz Interview challenge
 
 ### How to run:
  To run be sure Docker and Docker-Compose are installed.  Then run following commands.
